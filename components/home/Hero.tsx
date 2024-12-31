@@ -8,12 +8,12 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex gap-10 flex-col justify-center lg:flex-row items-center lg:px-8 py-12 lg:py-20">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0">
           <div className="">
-            <a href="/courses" className="inline-flex space-x-6">
+            <a href="/courses" className="inline-flex space-x-4">
               <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-semibold leading-6 text-primary ring-1 ring-inset ring-primary/10">
                 What&apos;s new
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium text-gray-600">
-                <span>Just launched MDCAT 2024</span>
+                <span>Just launched MDCAT 2025</span>
               </span>
             </a>
           </div>
@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
         </div>
         
-        <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-none">
+        <div className="mt-16 sm:mt-24 lg:mt-0 hidden min-[1100px]:block">
           <div className="relative w-full max-w-xl lg:max-w-none">
             <Image
               src="/images/hero.jpg"
