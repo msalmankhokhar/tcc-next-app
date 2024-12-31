@@ -1,6 +1,5 @@
 import { ButtonHTMLAttributes } from 'react'
 import { cn } from '@/lib/utils'
-import { colors } from '@/lib/colors'
 
 interface SecondaryButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size?: 'sm' | 'default' | 'lg'

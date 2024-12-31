@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import AuthLayout from '@/components/auth/AuthLayout'
 import { PrimaryButton } from '@/components/ui/buttons/PrimaryButton'
@@ -95,8 +96,8 @@ export default function SignupPage() {
             name="user-type"
             className="mt-2 block w-full rounded-lg border border-gray-300 px-3 py-2 shadow-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
           >
-            <option value="student">Learn - I'm a student</option>
-            <option value="teacher">Teach - I'm a teacher</option>
+            <option value="student">Learn - I&apos;m a student</option>
+            <option value="teacher">Teach - I&apos;m a teacher</option>
           </select>
         </div>
 

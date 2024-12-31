@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import AuthLayout from '@/components/auth/AuthLayout'
 import { PrimaryButton } from '@/components/ui/buttons/PrimaryButton'
